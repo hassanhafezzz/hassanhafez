@@ -1,0 +1,24 @@
+# Site settings
+title: Hassan Hafez personal website
+email: Hassan1hafez@gmail.com
+description: Hassan hafez's personal portfolio and blog.
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hassanhafez.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: hassanhafezz
+github_username:  hassanhafezzz
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title
+
+
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
