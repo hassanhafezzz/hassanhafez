@@ -24,7 +24,7 @@ title: blog
             </p>
             <div class="tags" style="margin-top: 15px;">
               {% for tag in post.tags %}
-              <a href="/tag/{{tag}}" class="btn btn-big tag" type="button" name="button" >{{tag}}</a>
+              <a href="{{ site.baseurl }}/tag/{{tag}}" class="btn btn-big tag" type="button" name="button" >{{tag}}</a>
               {% endfor %}
 
             </div>
