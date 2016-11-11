@@ -1,12 +1,12 @@
   <header style="background-color:#d52561;">
-    <h1 class="left"><a href="/"><img src="{{ site.url }}/images/logo.png" alt="Hassan's Logo"/></h1></a>
+    <h1 class="left"><a href="/"><img src="{{ site.baseurl }}/images/logo.png" alt="Hassan's Logo"/></h1></a>
     <ul class="right menu" id="menu">
       <li class="icon">
         <a href="javascript:void(0);" onclick="toggleMenu()"><i class="fa fa-bars" aria-hidden="true"></i></a>
       </li>
-      <li  {% if page.url == "/" %} class="active" {% endif%}><a href="{{ site.url }}/">HOME</a></li>
-      <li  {% if page.url == "/work" %} class="active" {% endif%}><a href="/work">WORK</a></li>
-      <li  {% if page.url == "/blog/" %} class="active" {% endif%}><a href="/blog/" >BLOG</a></li>
+      <li  {% if page.url == "/" %} class="active" {% endif%}><a href="{{ site.baseurl }}/">HOME</a></li>
+      <li  {% if page.url == "/work" %} class="active" {% endif%}><a href="{{ site.baseurl }}/work">WORK</a></li>
+      <li  {% if page.url == "/blog/" %} class="active" {% endif%}><a href="{{ site.baseurl }}/blog/" >BLOG</a></li>
       <li class="sender"><a href="javascript:void(0);">GET IN TOUCH</a> </li>
 
     </ul>

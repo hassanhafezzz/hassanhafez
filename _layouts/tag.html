@@ -7,7 +7,7 @@ title: tag
   <div class="sloped-bg-small"></div>
   <div class="head-section">
     <div class="title">
-      <a  href="{{ site.url }}/tag/{{page.tag}} " class="btn btn-big " type="button" name="button" >{{page.tag}} </a>
+      <a  href="{{ site.baseurl }}/tag/{{page.tag}} " class="btn btn-big " type="button" name="button" >{{page.tag}} </a>
 
     </div>
   </div>
@@ -15,7 +15,7 @@ title: tag
     <div class="grid">
       {% for post in site.tags.[page.tag] %}
         <div class="blog-post">
-          <img class="right" src="{{ site.url }}/images/posts/{{post.image}}" alt="personal logo">
+          <img class="right" src="{{ site.baseurl }}/images/posts/{{post.image}}" alt="personal logo">
           <div class="blog-post-info left">
             <p class="date" style="display:inline-block">{{ post.date | date: "%b %-d, %Y" }}</p> <span style="font-size:18px; padding:0px 8px;"> | </span><p class="deration" style="display:inline-block">{{post.read-duration}} Read</p>
             <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>

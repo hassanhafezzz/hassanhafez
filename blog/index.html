@@ -14,7 +14,7 @@ title: blog
     <div class="grid">
       {% for post in paginator.posts %}
         <div class="blog-post">
-          <img class="right" src="{{site.url}}/images/posts/{{post.image}}" alt="personal logo">
+          <img class="right" src="{{ site.baseurl }}/images/posts/{{post.image}}" alt="{{post.title}}">
           <div class="blog-post-info left">
             <p class="date" style="display:inline-block">{{ post.date | date: "%b %-d, %Y" }}</p> <span style="font-size:18px; padding:0px 8px;"> | </span><p class="deration" style="display:inline-block">{{post.read-duration}} Read</p>
             <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
