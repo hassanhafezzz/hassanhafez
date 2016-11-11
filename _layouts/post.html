@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:description" content="{{ page.excerpt | truncatewords: 20 }}" />
-
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta property="og:description" content="{{ page.excerpt | truncatewords: 20 }}"/>
 
   <title>Hassan Hafez</title>
   <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico" />
@@ -66,9 +65,9 @@
                 <div class="share share-2">
                   <ul>
                     <li>SHARE</li>
-                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl  }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl  }}{{ page.url }}" rel="nofollow" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                   </ul>
                 </div>
               </div>
