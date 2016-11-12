@@ -59,6 +59,9 @@ p {
 ::-moz-selection {
   background: #0af071; }
 
+.all-content {
+  overflow-x: hidden; }
+
 /*    _______ menu _______   */
 header {
   margin-top: -20px;
@@ -828,6 +831,10 @@ header {
   @media only screen and (max-width: 1088px) {
     .portafolio {
       width: 32.1%;
+      margin: 3px; } }
+  @media only screen and (max-width: 1024px) {
+    .portafolio {
+      width: 31.5%;
       margin: 3px; } }
   @media only screen and (max-width: 992px) {
     .portafolio {
