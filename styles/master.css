@@ -1065,7 +1065,8 @@ footer {
     position: absolute;
     z-index: 5;
     width: 640px;
-    height: 140px; }
+    height: 140px;
+    display: block; }
     @media screen and (max-width: 710px) {
       footer svg {
         width: 400px;
@@ -1076,8 +1077,7 @@ footer {
         height: 87px; } }
     @media screen and (max-width: 480px) {
       footer svg {
-        width: 200px;
-        height: 37px; } }
+        display: none; } }
 
 .footer-content {
   clear: both;
