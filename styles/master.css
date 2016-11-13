@@ -60,7 +60,7 @@ p {
   background: #0af071; }
 
 .all-content {
-  overflow-x: hidden; }
+  overflow: hidden; }
 
 /*    _______ menu _______   */
 header {
@@ -745,13 +745,25 @@ header {
         height: 180px;
         padding-top: 80px;
         margin-bottom: -180px; } }
-    @media only screen and (max-width: 1184px) {
+    @media screen and (max-width: 1200px) {
       .portafolio svg {
         width: 50px;
-        height: 230px;
-        padding-top: 95px;
-        margin-bottom: -230px; } }
-    @media screen and (max-width: 992px) {
+        height: 190px;
+        padding-top: 70px;
+        margin-bottom: -190px; } }
+    @media only screen and (max-width: 1090px) {
+      .portafolio svg {
+        width: 50px;
+        height: 160px;
+        padding-top: 60px;
+        margin-bottom: -160px; } }
+    @media only screen and (max-width: 1024px) {
+      .portafolio svg {
+        width: 50px;
+        height: 200px;
+        padding-top: 80px;
+        margin-bottom: -200px; } }
+    @media only screen and (max-width: 910px) {
       .portafolio svg {
         width: 50px;
         height: 300px;
@@ -805,6 +817,20 @@ header {
         height: 350px;
         padding-top: 110px;
         margin-bottom: -350px; } }
+    @media screen and (max-width: 430px) {
+      .portafolio svg {
+        left: 45%;
+        width: 50px;
+        height: 350px;
+        padding-top: 120px;
+        margin-bottom: -350px; } }
+    @media screen and (max-width: 410px) {
+      .portafolio svg {
+        left: 45%;
+        width: 50px;
+        height: 350px;
+        padding-top: 110px;
+        margin-bottom: -350px; } }
     @media screen and (max-width: 320px) {
       .portafolio svg {
         left: 45%;
@@ -824,21 +850,13 @@ header {
     .portafolio {
       width: 24%;
       margin: 3px; } }
-  @media only screen and (max-width: 1184px) {
-    .portafolio {
-      width: 32.3%;
-      margin: 3px; } }
   @media only screen and (max-width: 1088px) {
     .portafolio {
-      width: 32.1%;
+      width: 23.5%;
       margin: 3px; } }
   @media only screen and (max-width: 1024px) {
     .portafolio {
       width: 31.5%;
-      margin: 3px; } }
-  @media only screen and (max-width: 992px) {
-    .portafolio {
-      width: 49%;
       margin: 3px; } }
   @media only screen and (max-width: 910px) {
     .portafolio {
@@ -1188,7 +1206,7 @@ footer {
   @media screen and (max-width: 320px) {
     .form-container {
       width: 100%;
-      margin: 15px auto;
+      margin: 45px auto;
       padding: 20px 10px 0px 10px; } }
 
 .form-input textarea {

@@ -78,7 +78,7 @@ p{
   background: $sec-color-hover;
 }
 .all-content{
-  overflow-x:hidden;
+  overflow:hidden;
 }
 /*    _______ menu _______   */
 
@@ -860,14 +860,26 @@ header{
       padding-top: 80px;
       margin-bottom: -180px;
     }
-    @media only screen and (max-width : 1184px) {
+    @media screen and (max-width: 1200px) {
       width :50px;
-      height:230px;
-      padding-top: 95px;
-      margin-bottom: -230px;
+      height:190px;
+      padding-top: 70px;
+      margin-bottom: -190px;
+    }
+    @media only screen and (max-width : 1090px) {
+      width :50px;
+      height:160px;
+      padding-top: 60px;
+      margin-bottom: -160px;
     }
 
-    @media screen and (max-width: 992px) {
+    @media only screen and (max-width : 1024px) {
+      width :50px;
+      height:200px;
+      padding-top: 80px;
+      margin-bottom: -200px;
+    }
+    @media only screen and (max-width : 910px) {
       width :50px;
       height:300px;
       padding-top: 140px;
@@ -921,6 +933,20 @@ header{
       padding-top: 110px;
       margin-bottom: -350px;
     }
+    @media screen and (max-width: 430px) {
+      left: 45%;
+      width :50px;
+      height:350px;
+      padding-top: 120px;
+      margin-bottom: -350px;
+    }
+    @media screen and (max-width: 410px) {
+      left: 45%;
+      width :50px;
+      height:350px;
+      padding-top: 110px;
+      margin-bottom: -350px;
+    }
     @media screen and (max-width: 320px) {
       left: 45%;
       width :50px;
@@ -945,22 +971,18 @@ header{
      width: 24%;
      margin: 3px;
    }
-   @media only screen and (max-width : 1184px) {
-     width: 32.3%;
-     margin: 3px;
-   }
    @media only screen and (max-width : 1088px) {
-     width: 32.1%;
+     width: 23.5%;
      margin: 3px;
    }
    @media only screen and (max-width : 1024px) {
      width: 31.5%;
      margin: 3px;
    }
-   @media only screen and (max-width : 992px) {
-     width: 49%;
-     margin: 3px;
-   }
+  //  @media only screen and (max-width : 992px) {
+  //    width: 49%;
+  //    margin: 3px;
+  //  }
 
    @media only screen and (max-width : 910px) {
      width: 48.4%;
@@ -1365,7 +1387,7 @@ footer{
   }
   @media screen and (max-width:320px){
     width: 100%;
-    margin: 15px auto;
+    margin: 45px auto;
     padding: 20px 10px 0px 10px;
   }
 }
@@ -1379,7 +1401,6 @@ footer{
 	right: 32px;
 	top: 32px;
 	width: 32px;
-
   &:before, &:after{
   	background-color: #000;
   	content: ' ';
